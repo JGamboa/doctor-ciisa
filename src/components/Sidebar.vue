@@ -68,6 +68,16 @@
             Dashboard
           </router-link>
         </ul>
+
+          <ul class="md:flex-col md:min-w-full flex flex-col list-none">
+              <router-link to="/calls"
+                           tag="li"
+                           class="text-pink-500 text-xs uppercase py-3 font-bold block"
+                           active-class="hover:text-pink-600 cursor-pointer">
+                  <i class="fas fa-tv opacity-75 mr-2 text-sm"></i>
+                  Vista Llamados
+              </router-link>
+          </ul>
         <!-- Divider -->
         <hr class="my-4 md:min-w-full" />
         <!-- Heading -->
